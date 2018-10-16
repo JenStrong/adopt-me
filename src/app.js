@@ -58,6 +58,8 @@ class App extends React.Component {
                 animal={pet.animal}
                 name={pet.name}
                 breed={pet.breed}
+                media={pet.media}
+                location={`${pet.contact.city}, ${pet.contact.state}`} // this is a template string
               />
             );
           })}
