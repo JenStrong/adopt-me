@@ -56,6 +56,7 @@ class Results extends React.Component {
               name={pet.name}
               breed={pet.breed}
               media={pet.media}
+              id={pet.id}
               location={`${pet.contact.city}, ${pet.contact.state}`} // this is a template string
             />
           );
