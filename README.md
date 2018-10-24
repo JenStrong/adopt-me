@@ -8,7 +8,16 @@ This is a JS and React web application that displays the images and descriptions
 
 ## Getting Started
 
-## Obtaining a Petfinder API Key
+## How to add your own Petfinder API credentials
+
+1. Sign up for an API key [here](https://www.petfinder.com/developers/api-key).
+2. Create a file in the root of your project directoy that is called .env .
+3. Add the following to your .env file.
+
+```
+API_KEY=<Your API key>
+API_SECRET=<Your API secret>
+```
 
 ## Running Tests
 
